@@ -484,3 +484,233 @@ button[type="submit"] p {
 .titleactivities {
   font-size: 22px;
 }
+
+/* Main Tablette*/
+
+@media screen and (max-width: 992px) {
+  .lodgings {
+    flex-direction: column;
+  }
+
+  .sugestion {
+    width: auto;
+    margin-top: 53px;
+  }
+
+  .containerlodging {
+    width: auto;
+    margin-right: 0;
+  }
+
+  .listsuggestions {
+    gap: 0;
+  }
+
+  .suggestiontype {
+    width: 252px;
+  }
+
+  .suggestiontype img {
+    width: 106px;
+  }
+
+  .suggestiontype h2 {
+    font-size: 14px;
+  }
+
+  .listactivities {
+    gap: 50px;
+  }
+  .activitytype {
+    width: 182px;
+    height: 267px;
+  }
+
+  .activity p {
+    box-sizing: border-box;
+  }
+}
+
+/* Main Mobile*/
+
+@media screen and (max-width: 768px) {
+  Body {
+    padding: 0;
+  }
+
+  Main {
+    background-color: #f2f2f2;
+  }
+  .filtersresearch {
+    background-color: white;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .title {
+    text-align: center;
+    margin-top: 1px;
+  }
+
+  .search-container {
+    display: flex;
+    margin-top: 20px;
+    width: auto;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .information {
+    text-align: center;
+  }
+
+  button[type="submit"] {
+    width: 49px;
+    border-radius: 0 15px 15px 0;
+  }
+
+  button[type="submit"] span {
+    display: none;
+  }
+
+  button[type="submit"] p {
+    display: inline;
+  }
+
+  input[type="text"] {
+    width: 200px;
+  }
+
+  .filters {
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 720px;
+  }
+
+  .filters p {
+    margin-left: 20px;
+  }
+
+  .filtersbuttons {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 10px;
+    margin: auto;
+    max-width: 500px;
+  }
+
+  .filters button {
+    display: flex;
+    margin: auto;
+    width: 160px;
+    font-size: 11px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .information {
+    margin-top: 43px;
+  }
+
+  .titleaccomodation {
+    margin-left: 0;
+  }
+
+  .showingmore {
+    display: none;
+  }
+
+  .lodgings {
+    flex-direction: column-reverse;
+  }
+
+  .containerlodging {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: auto;
+    width: auto;
+    background-color: white;
+    border-radius: 0;
+    padding: 42px 20px 0 20px;
+  }
+
+  .listlodging {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .lodgingtypes {
+    width: 315px;
+    height: 199px;
+    margin: auto;
+    margin-bottom: 12px;
+  }
+
+  .sugestion {
+    margin: auto;
+    margin-top: 30px;
+    background-color: #f2f2f2;
+  }
+
+  .listsuggestions {
+    gap: 10px;
+  }
+  .suggestiontype {
+    margin: auto;
+    width: 314px;
+  }
+
+  /* Gestion section activité display mobile */
+
+  .activity {
+    background-color: white;
+    margin-top: 0;
+    padding-top: 30px;
+    padding-left: 22px;
+    padding-bottom: 80px;
+  }
+
+  .listactivities {
+    flex-direction: column;
+  }
+
+  .activitytype {
+    margin: auto;
+    width: 334px;
+    height: 190px;
+  }
+
+  .activitytype img {
+    border-radius: 20px;
+  }
+
+  .activitytype p {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    background-color: white;
+    width: 100%;
+    height: 56px;
+    margin: 0;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    box-sizing: border-box;
+    padding-left: 19px;
+    border-radius: 0px 0px 20px 20px;
+  }
+
+  .listactivities {
+    gap: 24px;
+  }
+
+  .titleactivities {
+    font-size: 22px;
+  }
+}
