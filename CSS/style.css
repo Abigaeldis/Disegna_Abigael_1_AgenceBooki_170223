@@ -1,0 +1,77 @@
+body {
+  font-family: "Raleway", sans-serif;
+  max-width: 1400px;
+  box-sizing: border-box;
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+}
+
+/* Header */
+
+h2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  height: 19px;
+  width: 61.09px;
+  margin-top: 44px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+nav li {
+  display: flex;
+  margin-top: 48px;
+}
+
+.accomodation {
+  display: flex;
+  justify-content: center;
+  margin-right: 67px;
+}
+
+.activities {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+
+.activities:visited {
+  color: black;
+}
+
+.activities:hover {
+  color: #0065fc;
+}
+
+nav ul li a:hover {
+  color: #0065fc;
+  font-weight: 500;
+}
+
+/* Quand hover est actif, trigger le contenu du before */
+li a:hover::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 162px;
+  top: 0px;
+  background-color: #0065fc;
+}
