@@ -120,3 +120,367 @@ li a:hover::before {
     background-color: #0065fc;
   }
 }
+
+/* Main */
+
+/*titre et sous titre*/
+
+main {
+  background-color: white;
+}
+.title {
+  margin-top: 60px;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.city {
+  margin-top: 13px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* Barre de recherche*/
+.search-container {
+  display: flex;
+  margin-top: 20px;
+  width: 332px;
+  height: 50px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50px;
+  background-color: #f2f2f2;
+  border-radius: 15% 0 0 15%;
+}
+
+.icon-container i {
+  color: black;
+  font-size: 20px;
+  height: 50%;
+}
+
+.search-form {
+  display: flex;
+  height: 100%;
+  width: 282px;
+}
+
+input {
+  border-left: 0;
+  border-right: 0;
+  border-color: #f2f2f2;
+  border-style: solid;
+}
+
+.search:focus {
+  outline: none;
+}
+
+input[type="text"] {
+  font-size: 18px;
+  background-color: white;
+  flex: 1;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+button[type="submit"] {
+  height: 100%;
+  width: 100px;
+  font-weight: 700;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #0065fc;
+  border-radius: 0 15% 15% 0;
+  background-color: #0065fc;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button[type="submit"] span {
+  display: inline;
+}
+
+button[type="submit"] p {
+  display: none;
+}
+
+.submit {
+  background-color: green;
+}
+
+/* Gestion des filtres et petit texte informatif */
+.filters {
+  display: flex;
+  margin-top: 46px;
+}
+
+.filters p {
+  font-weight: 700;
+  margin-right: 52px;
+}
+
+.filters span {
+  color: #0065fc;
+  margin-right: 10px;
+}
+
+.filters button {
+  margin-right: 20px;
+  height: 48px;
+  border-radius: 25px;
+  font-size: 17px;
+  border: 2px solid #d9d9d9;
+  background-color: white;
+}
+
+.filters button:hover {
+  background-color: #deebff;
+}
+.filtersbuttons {
+  display: flex;
+  /* padding: 4px 20px; */
+  align-items: center;
+}
+
+.buttonfilters {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 700;
+}
+
+.filtersbuttons span {
+  font-size: 21px;
+}
+
+.information {
+  display: flex;
+  align-items: baseline;
+  margin-top: 50px;
+  max-height: 37px;
+  max-width: 447px;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.information span {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #d9d9d9;
+  border-radius: 25px;
+  font-size: 13px;
+  align-items: center;
+  justify-content: center;
+  color: #0065fc;
+}
+
+/*Listes de Hebergements*/
+
+.rating span {
+  font-size: 12px;
+  color: #0065fc;
+}
+.lodgings {
+  display: flex;
+  margin: auto;
+  margin-top: 39px;
+}
+
+.containerlodging {
+  height: auto;
+  width: 880px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  margin-right: 40px;
+  padding-top: 42px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.titleaccomodation {
+  font-size: 22px;
+  margin-left: 15px;
+}
+
+.listlodging {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.lodgingtypes {
+  display: flex;
+  flex-direction: column;
+  width: 246px;
+  height: 199px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px grey;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 5px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.lodgingtypes:visited {
+  color: black;
+}
+
+.lodgingtypes img {
+  width: 100%;
+  height: 124px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.lodgingtypes p {
+  font-size: 14px;
+  margin: 0;
+  margin-top: 9px;
+}
+
+.lodgingtypes h2 {
+  margin: 0;
+  margin-top: 14px;
+}
+
+.descriptionrating {
+  margin-left: 10px;
+}
+
+.sugestion {
+  height: auto;
+  width: 420px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  /* padding-bottom: 34px;
+  padding-top: 41px; */
+  /* margin-right: 50px; */
+  padding: 41px 0px 34px 0px;
+}
+
+.populartitle {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.suggestiontitle {
+  font-size: 22px;
+}
+
+.populartitle span {
+  color: #0065fc;
+}
+
+.listsuggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 31px;
+}
+
+.suggestiontype {
+  display: flex;
+  width: 343px;
+  height: 144px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px grey;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 5px;
+  position: relative;
+}
+
+.suggestiontype img {
+  width: 137px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px 0 0 20px;
+}
+
+.suggestiontype div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  margin-left: 0;
+}
+
+.suggestiontype p {
+  font-size: 13px;
+  margin: 0;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.suggestiontype h2 {
+  margin-left: 10px;
+}
+
+.sugestion .rating {
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 12px;
+  margin-left: 10px;
+}
+
+.showingmore {
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.activity {
+  margin-top: 60px;
+}
+.listactivities {
+  display: flex;
+  gap: 20px;
+}
+
+.activitytype {
+  background-color: white;
+  height: 445px;
+  width: 302px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px grey;
+  position: relative;
+}
+
+.activitytype img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.activitytype p {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  background-color: white;
+  width: 100%;
+  height: 56px;
+  margin: 0;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 19px;
+}
+
+.titleactivities {
+  font-size: 22px;
+}
