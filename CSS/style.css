@@ -714,3 +714,21 @@ button[type="submit"] p {
     font-size: 22px;
   }
 }
+
+/* Footer */
+
+.quickaccess {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 61px;
+  padding: 0 370px 58px 70px;
+  background-color: #f2f2f2;
+}
+
+.quickaccess h3 {
+  font-size: 18px;
+}
+
+.quickaccess p {
+  font-size: 16px;
+}
