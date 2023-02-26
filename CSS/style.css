@@ -732,3 +732,27 @@ button[type="submit"] p {
 .quickaccess p {
   font-size: 16px;
 }
+
+/* Footer Tablette */
+
+@media screen and (max-width: 992px) {
+  .quickaccess {
+    padding-right: 173px;
+  }
+}
+/* Footer Mobile */
+
+@media screen and (max-width: 768px) {
+  .quickaccess {
+    flex-direction: column;
+    width: auto;
+    padding: 0;
+    padding-left: 30px;
+    margin-bottom: 61px;
+  }
+
+  .quickaccess p {
+    font-size: 16px;
+    width: auto;
+  }
+}
