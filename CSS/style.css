@@ -366,9 +366,6 @@ button[type="submit"] p {
   width: 420px;
   background-color: #f2f2f2;
   border-radius: 20px;
-  /* padding-bottom: 34px;
-  padding-top: 41px; */
-  /* margin-right: 50px; */
   padding: 41px 10px 34px 10px;
 }
 
@@ -662,7 +659,6 @@ button[type="submit"] p {
 
   .suggestion {
     margin: auto;
-    /* margin-top: 30px; */
     background-color: #f2f2f2;
     padding: 0;
     padding-bottom: 5px;
@@ -683,10 +679,6 @@ button[type="submit"] p {
   .activity {
     background-color: white;
     margin-top: 0;
-    /* padding-top: 30px;
-    padding-left: 22px;
-    padding-right: 22px;
-    padding-bottom: 80px; */
     padding: 30px 22px 50px 22px;
   }
 
