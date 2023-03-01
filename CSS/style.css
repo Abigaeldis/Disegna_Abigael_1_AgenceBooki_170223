@@ -502,6 +502,9 @@ button[type="submit"] p {
     margin-right: 0;
   }
 
+  .filters button {
+    font-size: 16px;
+  }
   .listsuggestions {
     gap: 0;
   }
@@ -602,6 +605,10 @@ button[type="submit"] p {
     max-width: 500px;
   }
 
+  .buttonfilters {
+    padding: 0;
+    padding-left: 10px;
+  }
   .filters button {
     display: flex;
     margin: auto;
