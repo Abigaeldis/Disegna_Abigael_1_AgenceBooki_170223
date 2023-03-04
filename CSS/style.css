@@ -285,7 +285,7 @@ button[type="submit"] p {
   color: #0065fc;
 }
 
-/*Listes de Hebergements*/
+/*Liste des Hebergements*/
 
 .rating span {
   font-size: 12px;
@@ -360,6 +360,8 @@ button[type="submit"] p {
 .descriptionrating {
   margin-left: 10px;
 }
+
+/*Liste des suggestions*/
 
 .suggestion {
   height: auto;
@@ -440,6 +442,7 @@ button[type="submit"] p {
   margin-left: 15px;
 }
 
+/*Liste des activités*/
 .activity {
   margin-top: 60px;
 }
