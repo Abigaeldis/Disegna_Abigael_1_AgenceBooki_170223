@@ -620,7 +620,8 @@ button[type="submit"] .fa-solid {
   .filters button {
     display: flex;
     margin: auto;
-    width: 160px;
+    max-width: 160px;
+    width: 40%;
     font-size: 11px;
     font-weight: 700;
     align-items: center;
