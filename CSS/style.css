@@ -299,7 +299,7 @@ button[type="submit"] .fa-solid {
 
 .containerlodging {
   height: auto;
-  width: 880px;
+  width: 65%;
   background-color: #f2f2f2;
   border-radius: 20px;
   margin-right: 40px;
@@ -322,7 +322,7 @@ button[type="submit"] .fa-solid {
 .lodgingtypes {
   display: flex;
   flex-direction: column;
-  width: 246px;
+  width: 30%;
   height: 199px;
   background-color: white;
   border-radius: 20px;
@@ -364,8 +364,7 @@ button[type="submit"] .fa-solid {
 /*Liste des suggestions*/
 
 .suggestion {
-  height: auto;
-  width: 420px;
+  width: 30%;
   background-color: #f2f2f2;
   border-radius: 20px;
   padding: 41px 10px 34px 10px;
@@ -511,8 +510,11 @@ button[type="submit"] .fa-solid {
     gap: 0;
   }
 
+  .lodgingtypes {
+    width: 30%;
+  }
   .suggestiontype {
-    width: 252px;
+    width: 30%;
   }
 
   .suggestiontype img {
