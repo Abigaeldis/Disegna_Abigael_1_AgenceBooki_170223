@@ -541,6 +541,7 @@ button[type="submit"] p {
 @media screen and (max-width: 768px) {
   Body {
     padding: 0;
+    max-width: 375px;
   }
 
   Main {
@@ -652,11 +653,12 @@ button[type="submit"] p {
   .listlodging {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    /* margin: auto; */
   }
 
   .lodgingtypes {
     width: 100%;
+    max-width: 334px;
     height: 199px;
     margin: auto;
     margin-bottom: 12px;
@@ -675,7 +677,7 @@ button[type="submit"] p {
   .suggestiontype {
     margin: auto;
     width: 100%;
-    max-width: 314px;
+    max-width: 334px;
     padding: 0;
   }
 
