@@ -210,7 +210,7 @@ button[type="submit"] span {
   display: inline;
 }
 
-button[type="submit"] p {
+button[type="submit"] .fa-solid {
   display: none;
 }
 
@@ -489,7 +489,7 @@ button[type="submit"] p {
 
 /* Main Tablette*/
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
   .lodgings {
     flex-direction: column;
   }
@@ -581,7 +581,7 @@ button[type="submit"] p {
     display: none;
   }
 
-  button[type="submit"] p {
+  button[type="submit"] .fa-solid {
     display: inline;
   }
 
