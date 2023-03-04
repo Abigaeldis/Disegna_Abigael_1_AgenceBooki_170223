@@ -44,6 +44,8 @@ nav li {
   display: flex;
   justify-content: center;
   margin-right: 67px;
+  text-decoration: none;
+  color: black;
 }
 
 .activities {
