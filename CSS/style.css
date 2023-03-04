@@ -402,6 +402,8 @@ button[type="submit"] p {
   margin-bottom: 10px;
   padding: 5px;
   position: relative;
+  text-decoration: none;
+  color: black;
 }
 
 .suggestiontype img {
