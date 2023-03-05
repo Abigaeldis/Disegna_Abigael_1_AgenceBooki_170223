@@ -257,7 +257,6 @@ button[type="submit"] .fa-solid {
 }
 .filtersbuttons {
   display: flex;
-  /* padding: 4px 20px; */
   align-items: center;
 }
 
@@ -664,7 +663,6 @@ button[type="submit"] .fa-solid {
 
   .listlodging {
     display: flex;
-    /* margin: auto; */
   }
 
   .lodgingtypes {
