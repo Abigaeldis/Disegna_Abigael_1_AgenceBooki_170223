@@ -91,7 +91,6 @@ li a:hover::before {
   }
   header {
     background-color: white;
-    margin-bottom: 2px;
   }
 
   nav {
@@ -112,14 +111,23 @@ li a:hover::before {
   .accomodation {
     margin-right: 0;
   }
-  li a:hover::before {
-    content: "";
-    position: absolute;
-    height: 2px;
+
+  li a {
+    padding-bottom: 20px;
     width: 50%;
-    left: 0;
-    top: 163px;
-    background-color: #0065fc;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 3px #f2f2f2;
+  }
+
+  li a:hover {
+    border-bottom: solid 3px #0065fc;
+    border-top: none;
+  }
+
+  li a:hover::before {
+    display: none;
   }
 }
 
@@ -560,7 +568,7 @@ button[type="submit"] .fa-solid {
 
   .title {
     text-align: center;
-    margin-top: 1px;
+    margin-top: 0;
     padding-top: 10px;
   }
 
